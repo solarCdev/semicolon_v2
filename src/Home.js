@@ -10,7 +10,9 @@ export default () => {
           Python, Javascript, C++
         </span>
       </div>
-      <button className="btn">동아리에 참여하기</button>
+      <a href="https://open.kakao.com/o/gbXVBbXe">
+        <button className="btn">동아리에 참여하기</button>
+      </a>
       <div>
         <div id="bg">
           <div id="wrap2">
@@ -82,7 +84,7 @@ export default () => {
           </li>
         </ul>
       </div>
-      <a href="https://www.naver.com">
+      <a href="https://open.kakao.com/o/gbXVBbXe">
         <button className="btn">동아리에 참여하기</button>
       </a>
       <div id="margin" />
