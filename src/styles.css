@@ -1,0 +1,170 @@
+* {
+  font-family: "Gothic A1", sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  background-color: #222222;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 900, "GRAD" 0, "opsz" 48;
+}
+
+.logo {
+  width: 180px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+
+button {
+  padding: 15px 70px;
+  border: none;
+  background-color: blue;
+  border-radius: 999px;
+
+  font-size: 17px;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+}
+
+.btn {
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+button:hover {
+  box-shadow: 0 0 30px blue;
+}
+
+#goto_top {
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.title {
+  width: 250px;
+  display: block;
+  left: 50%;
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+#tit2 {
+  margin-top: 60px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#wrap1 {
+  /* background-color: red; */
+  margin-bottom: 20px;
+}
+
+#bg {
+  background: url("https://uploads.codesandbox.io/uploads/user/17d492df-d5c7-4861-be13-b097146157c0/oPBW-pexels-luis-quintero-2148216.jpg");
+  width: 100%;
+  height: 600px;
+  background-position: 0;
+  background-size: 400px;
+  position: relative;
+  margin-top: 40px;
+}
+
+#wrap2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  width: 80%;
+  height: 550px;
+  border-radius: 40px;
+  border: 0.5px #1d1d1d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.set {
+  margin: 40px;
+}
+
+p {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+#wrap3 {
+  margin: 50px;
+}
+
+#wrap3 > ul {
+  list-style: none;
+}
+
+#tog {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#wrap3 > ul > li {
+  margin-bottom: 30px;
+}
+
+#wrap3 > ul > li > h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#py > h3 {
+  color: #38f962;
+}
+
+#js > h3 {
+  color: #ffeb3c;
+}
+
+#cpp > h3 {
+  color: #76a2e4;
+}
+
+#wrap3 {
+  margin-bottom: 10px;
+}
+
+#margin {
+  margin-top: 100px;
+}
+
+#wrap3 > ul > li > ul {
+  margin-left: 30px;
+}
+
+.margins {
+  margin: 10%;
+}
+
+.h2 {
+  margin-bottom: 10px;
+}
+
+.margins > span {
+  font-size: 16px;
+}

@@ -1,0 +1,64 @@
+nav {
+  position: relative;
+  width: 100%;
+  height: 140px;
+}
+
+nav > img {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  transform: translateX(-50%);
+}
+
+nav > span {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+
+#black {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  transition: 0.3s ease-in-out;
+  position: fixed;
+  z-index: 10;
+}
+
+#menu {
+  background-color: #222;
+  /* box-shadow: 0 0 40px 0 #0000ff55; */
+  width: 70%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  border-radius: 0 40px 40px 0;
+}
+
+#menu_txt {
+  font-size: 36px;
+  font-weight: 900;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#menu > ul > li {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  transition: 0.5s ease-in-out;
+}
+
+#menu > ul > li :hover {
+  text-shadow: 0 0 20px white;
+}
+
+#menu > ul {
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+}
